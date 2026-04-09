@@ -1,9 +1,6 @@
 import { pool } from "../db.js";
 
-/**
- * Si en pgAdmin los nombres de las fechas no coinciden, cámbialos aquí.
- * (En la captura aparecían truncados como fecha_vencimient…)
- */
+
 const COL_SOAT = "fecha_vencimiento_soat";
 const COL_TECNO = "fecha_vencimiento_tecnomecanica";
 
